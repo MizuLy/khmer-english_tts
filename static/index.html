@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Khmer/English TTS + OCR</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>🔊 Speak It</h1>
+
+      <textarea
+        id="textInput"
+        placeholder="Type Khmer or English text here... សូមសរសេរអត្ថបទនៅទីនេះ"
+      ></textarea>
+
+      <div class="row">
+        <label>Language:</label>
+        <select id="langSelect">
+          <option value="km">Khmer</option>
+          <option value="en">English</option>
+        </select>
+      </div>
+
+      <div class="row buttons">
+        <button type="button" id="playBtn">▶ Play</button>
+        <button type="button" id="saveBtn">💾 Save as MP3</button>
+      </div>
+
+      <audio id="audioPlayer" controls style="display: none"></audio>
+      <div id="status"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
