@@ -17,7 +17,7 @@ A simple web app to type Khmer or English text, hear it spoken aloud, save it as
 1. **Clone the repo**
    ```bash
    git clone https://github.com/MizuLy/khmer-english_tts.git
-   cd khmer-tts-ocr
+   cd khmer-english_tts
    ```
 
 2. **Create a virtual environment**
