@@ -59,7 +59,7 @@ A simple web app to type Khmer or English text, hear it spoken aloud, save it as
 
 ## Project structure
 ```
-khmer-tts-ocr/
+khmer-english_tts/
 ├── main.py              # FastAPI backend
 ├── requirements.txt
 ├── static/
