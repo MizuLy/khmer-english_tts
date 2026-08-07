@@ -1,4 +1,4 @@
-# Khmer/English TTS + OCR
+# Khmer/English TTS
 
 A simple web app to type Khmer or English text, hear it spoken aloud, save it as an MP3, and (WIP) extract text from images.
 
